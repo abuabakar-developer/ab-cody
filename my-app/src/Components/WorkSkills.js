@@ -6,6 +6,7 @@ import css from "../Components/css.png";
 import javascript from "../Components/javascript.png";
 import react from "../Components/react.png";
 import next from "../Components/next.png";
+import ts from "../Components/ts.png"
 import "./WorkSkillsStyles.css";
 
 const WorkSkills = () => {
@@ -63,6 +64,16 @@ const WorkSkills = () => {
               </div>
               <h3>NEXT.JS</h3>
               <h6>50%</h6>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illum cum molestiae maxime consequatur rerum! Qui, itaque?</p>
+          </div>
+          <div className='skill-box'>
+            <div className='skill-title'>
+              <div className='image'>
+                <img src={ts} alt="typescript" />
+              </div>
+              <h3>TYPESCRIPT</h3>
+              <h6>45%</h6>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illum cum molestiae maxime consequatur rerum! Qui, itaque?</p>
           </div>
