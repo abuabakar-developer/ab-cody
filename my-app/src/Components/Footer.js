@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaPhone, FaMailBulk, FaGithub } from 'react-icons/fa';
+import { FaHome, FaPhone, FaMailBulk } from 'react-icons/fa';
 import './FooterStyles.css';
 
 const Footer = () => {
@@ -25,16 +25,11 @@ const Footer = () => {
         </div>
         <div className="right">
           <h4>About the company</h4>
-          <p>I am a fresher React developer in Pakistan. I am working as a Fresher Front end Website Develpoer in the company.</p>
-          <div className="social">
-             <h4>Github </h4>
-        <a href="https://github.com/abuabakar-developer" target='-blank' rel='noopener noorferrer'>
-            <FaGithub size={30} style={{ color: 'white', marginRight: '2rem' }} />
-        </a>
+          <p>I am a fresher React developer in Pakistan. I am working as a Fresher Front end Website Develpoer in the company.Contact me for any kind Projects.</p>
+
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

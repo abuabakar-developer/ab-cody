@@ -1,9 +1,14 @@
 .hero-img2 {
     width: 100%;
     height: auto;
-    background-image: ;
+    background-image:gray ;
 }
 .heading {
         font-size: 2rem;
+        color: darkolivegreen;
         
+}
+.heading  p {
+  color: black;
+  font-weight: 600;
 }
